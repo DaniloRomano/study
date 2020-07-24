@@ -1,0 +1,6 @@
+C:\dev\Study\study\DatabaseHelper\DbHelper\bin\Debug\netcoreapp2.2\DbHelper.deps.json
+C:\dev\Study\study\DatabaseHelper\DbHelper\bin\Debug\netcoreapp2.2\DbHelper.dll
+C:\dev\Study\study\DatabaseHelper\DbHelper\obj\Debug\netcoreapp2.2\DbHelper.csprojAssemblyReference.cache
+C:\dev\Study\study\DatabaseHelper\DbHelper\obj\Debug\netcoreapp2.2\DbHelper.csproj.CoreCompileInputs.cache
+C:\dev\Study\study\DatabaseHelper\DbHelper\obj\Debug\netcoreapp2.2\DbHelper.AssemblyInfoInputs.cache
+C:\dev\Study\study\DatabaseHelper\DbHelper\obj\Debug\netcoreapp2.2\DbHelper.AssemblyInfo.cs
