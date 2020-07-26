@@ -1,0 +1,8 @@
+C:\dev\Study\study\Ecommerce_Padrao\DefaultReturn\bin\Debug\netcoreapp2.2\Default.deps.json
+C:\dev\Study\study\Ecommerce_Padrao\DefaultReturn\bin\Debug\netcoreapp2.2\Default.dll
+C:\dev\Study\study\Ecommerce_Padrao\DefaultReturn\bin\Debug\netcoreapp2.2\Default.pdb
+C:\dev\Study\study\Ecommerce_Padrao\DefaultReturn\obj\Debug\netcoreapp2.2\Default.csproj.CoreCompileInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\DefaultReturn\obj\Debug\netcoreapp2.2\Default.AssemblyInfoInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\DefaultReturn\obj\Debug\netcoreapp2.2\Default.AssemblyInfo.cs
+C:\dev\Study\study\Ecommerce_Padrao\DefaultReturn\obj\Debug\netcoreapp2.2\Default.dll
+C:\dev\Study\study\Ecommerce_Padrao\DefaultReturn\obj\Debug\netcoreapp2.2\Default.pdb

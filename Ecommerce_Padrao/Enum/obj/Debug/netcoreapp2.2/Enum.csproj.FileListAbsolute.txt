@@ -1,0 +1,9 @@
+C:\dev\Study\study\Ecommerce_Padrao\Enum\bin\Debug\netcoreapp2.2\Enum.deps.json
+C:\dev\Study\study\Ecommerce_Padrao\Enum\bin\Debug\netcoreapp2.2\Enum.dll
+C:\dev\Study\study\Ecommerce_Padrao\Enum\bin\Debug\netcoreapp2.2\Enum.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Enum\obj\Debug\netcoreapp2.2\Enum.csprojAssemblyReference.cache
+C:\dev\Study\study\Ecommerce_Padrao\Enum\obj\Debug\netcoreapp2.2\Enum.csproj.CoreCompileInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Enum\obj\Debug\netcoreapp2.2\Enum.AssemblyInfoInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Enum\obj\Debug\netcoreapp2.2\Enum.AssemblyInfo.cs
+C:\dev\Study\study\Ecommerce_Padrao\Enum\obj\Debug\netcoreapp2.2\Enum.dll
+C:\dev\Study\study\Ecommerce_Padrao\Enum\obj\Debug\netcoreapp2.2\Enum.pdb

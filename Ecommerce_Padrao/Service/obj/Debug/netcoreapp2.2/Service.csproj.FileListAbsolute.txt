@@ -1,0 +1,9 @@
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Service.deps.json
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Service.dll
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Service.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.csprojAssemblyReference.cache
+C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.csproj.CoreCompileInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfoInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfo.cs
+C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.dll
+C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.pdb
