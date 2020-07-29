@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "Person\Person.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{7358508A-0A6F-4F30-B6AD-37FEA117D250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{9E9DF36D-028B-4730-AE93-32AAD09D7777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{9E9DF36D-028B-4730-AE93-32AAD09D7777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default", "DefaultReturn\Default.csproj", "{4B9F6F27-50A1-4F28-8F1C-62928C0DBC2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Default", "DefaultReturn\Default.csproj", "{4B9F6F27-50A1-4F28-8F1C-62928C0DBC2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{3263A4F0-438D-4A03-ABE4-F4060C449DB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{4B9F6F27-50A1-4F28-8F1C-62928C0DBC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B9F6F27-50A1-4F28-8F1C-62928C0DBC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B9F6F27-50A1-4F28-8F1C-62928C0DBC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3263A4F0-438D-4A03-ABE4-F4060C449DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3263A4F0-438D-4A03-ABE4-F4060C449DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3263A4F0-438D-4A03-ABE4-F4060C449DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3263A4F0-438D-4A03-ABE4-F4060C449DB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

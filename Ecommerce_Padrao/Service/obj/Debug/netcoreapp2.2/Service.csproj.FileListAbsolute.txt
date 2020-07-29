@@ -7,3 +7,14 @@ C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.Asse
 C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfo.cs
 C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.dll
 C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.dll
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Models.dll
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.dll
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Models.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Microsoft.IdentityModel.Tokens.xml
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\System.IdentityModel.Tokens.Jwt.xml
+C:\dev\Study\study\Ecommerce_Padrao\Service\obj\Debug\netcoreapp2.2\Service.csproj.CopyComplete
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Options.dll
+C:\dev\Study\study\Ecommerce_Padrao\Service\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Options.xml

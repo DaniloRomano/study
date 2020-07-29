@@ -1,7 +1,7 @@
 ﻿using Default.Return;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Person.Class;
-using Person.Class.Output;
+using Service.Person;
 using System;
 
 namespace API.Controllers
@@ -10,20 +10,25 @@ namespace API.Controllers
     [ApiController]
     public class PersonController : ControllerBase
     {
-        [HttpGet("{id}")]
-        [ProducesResponseType(typeof(DefaultReturn<CustomerOutput>),200)]
-        [ProducesResponseType(typeof(DefaultReturn<object>),400)]
-        [ProducesErrorResponseType(typeof(DefaultReturn<Exception>))]
-        public IActionResult Get(int id)
+        #region Properties
+        private IPersonService personService;
+        #endregion
+        #region Constructor
+        public PersonController(IPersonService _personService)
+        {
+            personService = _personService;
+        }
+        #endregion
+        [Authorize(Roles = "atendente")]
+        [HttpGet("{userId}")]
+        [ProducesResponseType(typeof(DefaultReturn<Models.Person.Person>), 200)]
+        [ProducesResponseType(typeof(DefaultReturn<object>), 400)]
+        public IActionResult Get(Guid userId)
         {
             try
             {
-                DefaultReturn<CustomerOutput> response = new DefaultReturn<CustomerOutput>();
-                response.dataReturn = new CustomerOutput
-                {
-                    id = id,
-                    name = "Teste"
-                };
+                DefaultReturn<Models.Person.Person> response = new DefaultReturn<Models.Person.Person>();
+                response.dataReturn = personService.Get(userId);
                 return StatusCode(200, response);
             }
             catch (System.Exception ex)
