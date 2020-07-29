@@ -1,0 +1,12 @@
+C:\dev\Study\study\Ecommerce_Padrao\Person\bin\Debug\netcoreapp2.2\Person.deps.json
+C:\dev\Study\study\Ecommerce_Padrao\Person\bin\Debug\netcoreapp2.2\Person.dll
+C:\dev\Study\study\Ecommerce_Padrao\Person\bin\Debug\netcoreapp2.2\Person.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Person\bin\Debug\netcoreapp2.2\Enum.dll
+C:\dev\Study\study\Ecommerce_Padrao\Person\bin\Debug\netcoreapp2.2\Enum.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Person\obj\Debug\netcoreapp2.2\Person.csprojAssemblyReference.cache
+C:\dev\Study\study\Ecommerce_Padrao\Person\obj\Debug\netcoreapp2.2\Person.csproj.CoreCompileInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Person\obj\Debug\netcoreapp2.2\Person.AssemblyInfoInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Person\obj\Debug\netcoreapp2.2\Person.AssemblyInfo.cs
+C:\dev\Study\study\Ecommerce_Padrao\Person\obj\Debug\netcoreapp2.2\Person.csproj.CopyComplete
+C:\dev\Study\study\Ecommerce_Padrao\Person\obj\Debug\netcoreapp2.2\Person.dll
+C:\dev\Study\study\Ecommerce_Padrao\Person\obj\Debug\netcoreapp2.2\Person.pdb

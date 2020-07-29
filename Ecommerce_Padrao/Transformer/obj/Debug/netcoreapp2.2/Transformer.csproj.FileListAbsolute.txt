@@ -1,0 +1,9 @@
+C:\dev\Study\study\Ecommerce_Padrao\Transformer\bin\Debug\netcoreapp2.2\Transformer.deps.json
+C:\dev\Study\study\Ecommerce_Padrao\Transformer\bin\Debug\netcoreapp2.2\Transformer.dll
+C:\dev\Study\study\Ecommerce_Padrao\Transformer\bin\Debug\netcoreapp2.2\Transformer.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Transformer\obj\Debug\netcoreapp2.2\Transformer.csprojAssemblyReference.cache
+C:\dev\Study\study\Ecommerce_Padrao\Transformer\obj\Debug\netcoreapp2.2\Transformer.csproj.CoreCompileInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Transformer\obj\Debug\netcoreapp2.2\Transformer.AssemblyInfoInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Transformer\obj\Debug\netcoreapp2.2\Transformer.AssemblyInfo.cs
+C:\dev\Study\study\Ecommerce_Padrao\Transformer\obj\Debug\netcoreapp2.2\Transformer.dll
+C:\dev\Study\study\Ecommerce_Padrao\Transformer\obj\Debug\netcoreapp2.2\Transformer.pdb

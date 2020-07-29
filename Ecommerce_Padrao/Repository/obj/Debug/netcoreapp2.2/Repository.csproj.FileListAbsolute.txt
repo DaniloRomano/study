@@ -1,0 +1,14 @@
+C:\dev\Study\study\Ecommerce_Padrao\Repository\obj\Debug\netcoreapp2.2\Repository.csprojAssemblyReference.cache
+C:\dev\Study\study\Ecommerce_Padrao\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CoreCompileInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfoInputs.cache
+C:\dev\Study\study\Ecommerce_Padrao\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfo.cs
+C:\dev\Study\study\Ecommerce_Padrao\Repository\bin\Debug\netcoreapp2.2\Repository.deps.json
+C:\dev\Study\study\Ecommerce_Padrao\Repository\bin\Debug\netcoreapp2.2\Repository.dll
+C:\dev\Study\study\Ecommerce_Padrao\Repository\bin\Debug\netcoreapp2.2\Repository.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Repository\bin\Debug\netcoreapp2.2\Enum.dll
+C:\dev\Study\study\Ecommerce_Padrao\Repository\bin\Debug\netcoreapp2.2\System.Data.SqlClient.dll
+C:\dev\Study\study\Ecommerce_Padrao\Repository\bin\Debug\netcoreapp2.2\Enum.pdb
+C:\dev\Study\study\Ecommerce_Padrao\Repository\bin\Debug\netcoreapp2.2\System.Data.SqlClient.xml
+C:\dev\Study\study\Ecommerce_Padrao\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CopyComplete
+C:\dev\Study\study\Ecommerce_Padrao\Repository\obj\Debug\netcoreapp2.2\Repository.dll
+C:\dev\Study\study\Ecommerce_Padrao\Repository\obj\Debug\netcoreapp2.2\Repository.pdb
