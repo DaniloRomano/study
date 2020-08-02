@@ -30,14 +30,14 @@ namespace Service.Person
             }
         };
 
-        public Models.Person.Person Get(Guid UserId)
+        public Models.Person.Person Get(Models.Person.Person person)
         {
-            var person = people.SingleOrDefault(x => x.UserId == UserId);
+            var retorno = people.SingleOrDefault(x => x.UserId == person.UserId);
 
-            if (person.Id == 0)
+            if (retorno.Id == 0)
                 throw new Exception("Pessoa não encontrada");
 
-            return person;
+            return retorno;
         }
 
         public IEnumerable<Models.Person.Person> Search(Models.Person.Person person)

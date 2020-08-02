@@ -10,25 +10,22 @@ namespace API.Controllers
     [ApiController]
     public class PersonController : ControllerBase
     {
-        #region Properties
-        private IPersonService personService;
-        #endregion
-        #region Constructor
-        public PersonController(IPersonService _personService)
-        {
-            personService = _personService;
-        }
-        #endregion
         [Authorize(Roles = "atendente")]
         [HttpGet("{userId}")]
         [ProducesResponseType(typeof(DefaultReturn<Models.Person.Person>), 200)]
         [ProducesResponseType(typeof(DefaultReturn<object>), 400)]
-        public IActionResult Get(Guid userId)
+        public IActionResult Get(
+            [FromServices] IPersonService personService,
+            Guid userId
+            )
         {
             try
             {
                 DefaultReturn<Models.Person.Person> response = new DefaultReturn<Models.Person.Person>();
-                response.dataReturn = personService.Get(userId);
+                response.dataReturn = personService.Get(new Models.Person.Person
+                {
+                    UserId = userId
+                });
                 return StatusCode(200, response);
             }
             catch (System.Exception ex)

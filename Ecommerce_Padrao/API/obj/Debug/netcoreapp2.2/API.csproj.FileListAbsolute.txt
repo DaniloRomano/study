@@ -5,12 +5,16 @@ C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\API.dll
 C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\API.pdb
 C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Default.dll
 C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Enum.dll
+C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Models.dll
 C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Person.dll
 C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Service.dll
+C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Transformer.dll
 C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Default.pdb
 C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Person.pdb
 C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Service.pdb
+C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Transformer.pdb
 C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Enum.pdb
+C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Models.pdb
 C:\dev\Study\study\Ecommerce_Padrao\API\obj\Debug\netcoreapp2.2\API.csprojAssemblyReference.cache
 C:\dev\Study\study\Ecommerce_Padrao\API\obj\Debug\netcoreapp2.2\API.csproj.CoreCompileInputs.cache
 C:\dev\Study\study\Ecommerce_Padrao\API\obj\Debug\netcoreapp2.2\API.RazorAssemblyInfo.cache
@@ -21,5 +25,3 @@ C:\dev\Study\study\Ecommerce_Padrao\API\obj\Debug\netcoreapp2.2\API.RazorTargetA
 C:\dev\Study\study\Ecommerce_Padrao\API\obj\Debug\netcoreapp2.2\API.csproj.CopyComplete
 C:\dev\Study\study\Ecommerce_Padrao\API\obj\Debug\netcoreapp2.2\API.dll
 C:\dev\Study\study\Ecommerce_Padrao\API\obj\Debug\netcoreapp2.2\API.pdb
-C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Models.dll
-C:\dev\Study\study\Ecommerce_Padrao\API\bin\Debug\netcoreapp2.2\Models.pdb

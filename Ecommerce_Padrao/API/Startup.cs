@@ -8,9 +8,13 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Models.Config;
 using Service.Person;
+using Service.Product;
+using Service.Product.Interface;
 using Service.User;
 using System;
 using System.Text;
+using Transformer.Product;
+using Transformer.User;
 
 namespace API
 {
@@ -73,8 +77,15 @@ namespace API
             });
 
             //Injeção de dependencia
-            services.AddScoped<IUserService, UserService>();
-            services.AddScoped<IPersonService, PersonService>();
+            #region UserDependencies
+            services.AddTransient<IUserService, UserService>();
+            services.AddScoped<ITransformerUser, TransformerUser>();
+            #endregion
+            services.AddTransient<IPersonService, PersonService>();
+            #region Product Dependencies
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ITransformerProduct, TransformerProduct>();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -84,6 +95,7 @@ namespace API
             {
                 app.UseDeveloperExceptionPage();
             }
+
 
             app.UseCors(x => x
             .AllowAnyOrigin()

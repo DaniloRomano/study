@@ -1,0 +1,176 @@
+html{
+scroll-behavior: smooth;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.jumbotron{
+    height: 450px;    
+    margin: 0px;
+}
+.jumbotron h1,.jumbotron h2{
+    text-align: center;    
+    border-bottom: 10px solid red;
+    width: 60%;
+    margin: 10% auto auto auto;
+    padding-bottom:2%;
+}
+
+.jumbotron p{
+    text-align: center;        
+    width: 60%;
+    margin: 2% auto auto auto;
+}
+.header-image{    
+    background: url('../images/estrutura/header-background.png') no-repeat;        
+    background-size: cover;    
+    background-attachment: fixed;
+}
+.navbar-brand img{
+    max-height: 40px;
+}
+
+
+.header-image .container{
+    opacity: 1;
+}
+
+.div1{
+background-color: #333333;
+    color: #EEEEEE;
+    text-align: center;
+    height: 150px;
+}
+
+.div1 h2{
+    margin:4% auto;
+}
+.col-md-4.divsons {
+    margin: 30px auto;
+    color:#333333;
+    text-align: justify;
+}
+
+.div2{
+    background-color: #920706;
+        color: #EEEEEE;
+        text-align: center;
+        height: 150px;
+    }
+
+    .div2 h2{
+        margin:4% auto;
+    }
+
+    .div3{
+        background-color: #333333;
+            color: #eeeeee;
+            text-align: center;
+            height: 250px;
+        }
+    
+        .div3 h2{
+            margin:4% auto;
+        }
+
+        .div4{
+            background-color: #AAAAAA;
+                color: #333333;
+                text-align: center;
+                height: 220px;
+            }
+        
+            .div4 h2{
+                margin:4% auto;
+            }
+
+    .col-md-6.divvideos {
+        margin: 30px auto;
+        color:#333333;
+        text-align: justify;
+    }
+
+    
+    .col-md-6.divservicos {
+        margin: 30px auto;
+        color:#333333;
+        text-align: center;
+
+    }
+
+    .col-md-6.divservicos .span-servico {
+        background: url(../images/estrutura/sprite-servicos.png) no-repeat;
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: auto;     
+        background-size: 450%;        
+    }    
+    .col-md-6.divservicos .span-servico.sp1{
+        background-position-x: 0;
+    }
+    .col-md-6.divservicos .span-servico.sp2{
+        background-position-x: -235px;
+    }
+    .col-md-6.divservicos .span-servico.sp3{
+        background-position-x: -480px;
+    }
+    .col-md-6.divservicos .span-servico.sp4{
+        background-position-x: -715px;
+    }
+    .col-md-6.divservicos .span-servico.sp5{
+        background-position-x: -235px;
+        background-position-y: -185px;
+    }
+    .col-md-6.divservicos .span-servico.sp6{
+        background-position-x: -480px;
+        background-position-y: -185px;
+    }
+
+    .col-md-12 span{
+        display: block;
+        width: 100%;
+        text-align: center;        
+        font-size: 60px;
+        margin: auto;
+    }
+
+    .col-md-6.divpreco {
+        margin: 30px auto;
+        color:#333333;
+        text-align: center;
+
+    }
+    .col-md-6.divpreco span.spnQtd {
+        font-size: 150px;
+        display: block;
+    }
+    .col-md-6.divpreco span.spnOffs {
+        font-size: 95px;        
+    }
+    .col-md-6.divpreco span.spnPreco {
+        font-size: 65px;
+        display: block;
+        width: 65%;
+        margin: auto;
+        background: #ff2222;
+        color: #ffffff;
+        border-radius: 20px;
+    }
+
+    .gray{
+        background:#aaaaaa;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    img.whatsappbutton {
+        width: 15%;
+        margin: 5% auto;
+    }
