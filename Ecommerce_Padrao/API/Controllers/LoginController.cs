@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Default.Return;
+﻿using Default.Return;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Models.User;
 using Service.User;
+using Service.User.Request;
+using Service.User.Response;
+using System;
+using Transformer.User;
 
 namespace API.Controllers
 {
@@ -15,27 +13,20 @@ namespace API.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        #region Properties
-        private IUserService _userService;
-        #endregion
-
-        #region Constructor
-        public LoginController(IUserService userService)
-        {
-            _userService = userService;
-        }
-        #endregion
-
         [AllowAnonymous]
         [HttpPost("login")]
-        [ProducesResponseType(typeof(DefaultReturn<User>), 200)]
+        [ProducesResponseType(typeof(DefaultReturn<LoginResponse>), 200)]
         [ProducesResponseType(typeof(DefaultReturn<object>), 400)]
-        public IActionResult Login(string username, string password)
+        public IActionResult Login(
+            [FromServices] IUserService _userService,
+            [FromServices] ITransformerUser _transformer,
+            [FromBody] LoginRequest loginRequest
+            )
         {
-            DefaultReturn<User> response = new DefaultReturn<User>();
+            DefaultReturn<LoginResponse> response = new DefaultReturn<LoginResponse>();
             try
             {
-                response.dataReturn = _userService.Authenticate(username, password);
+                response.dataReturn = _transformer.ParseUserToLoginResponse(_userService.Authenticate(_transformer.ParseLoginRequestToUser(loginRequest)));
                 return StatusCode(200, response);
             }
             catch (Exception ex)

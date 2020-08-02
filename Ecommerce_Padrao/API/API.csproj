@@ -6,6 +6,10 @@
     <StartupObject></StartupObject>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Remove="Controllers\ValuesController.cs" />
   </ItemGroup>
@@ -20,6 +24,7 @@
     <ProjectReference Include="..\DefaultReturn\Default.csproj" />
     <ProjectReference Include="..\Person\Person.csproj" />
     <ProjectReference Include="..\Service\Service.csproj" />
+    <ProjectReference Include="..\Transformer\Transformer.csproj" />
   </ItemGroup>
 
 </Project>

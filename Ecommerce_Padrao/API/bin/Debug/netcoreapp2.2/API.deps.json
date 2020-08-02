@@ -30,7 +30,8 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.0",
           "Person": "1.0.0",
           "Service": "1.0.0",
-          "Swashbuckle.AspNetCore": "5.5.1"
+          "Swashbuckle.AspNetCore": "5.5.1",
+          "Transformer": "1.0.0"
         },
         "runtime": {
           "API.dll": {}
@@ -507,6 +508,17 @@
         },
         "compile": {
           "Service.dll": {}
+        }
+      },
+      "Transformer/1.0.0": {
+        "dependencies": {
+          "Service": "1.0.0"
+        },
+        "runtime": {
+          "Transformer.dll": {}
+        },
+        "compile": {
+          "Transformer.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3916,6 +3928,11 @@
       "sha512": ""
     },
     "Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Transformer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
